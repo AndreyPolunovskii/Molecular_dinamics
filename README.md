@@ -1,4 +1,4 @@
-# Molecular_dinamics
+# Molecular dinamics
 
 This program allow to simulate the dynamics of a system of interacting particles.
 
@@ -17,3 +17,6 @@ To run the program in the folder Molecular_dinamics_with_openGL_and_CUDA execute
 
                  
      ./RUN
+
+Use mouse and buttons shift and ctrl to control the view.
+
