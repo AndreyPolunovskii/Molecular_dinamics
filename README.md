@@ -16,4 +16,4 @@ All necessary parameters are set in the file:
 To run the program in the folder Molecular_dinamics_with_openGL_and_CUDA execute the following command:
 
                  
-                 ./RUN
+     ./RUN
