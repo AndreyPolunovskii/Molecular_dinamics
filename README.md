@@ -32,12 +32,12 @@ Use mouse and buttons shift and ctrl to control the view.
     </tr>
     <tr>
       <td>
-        <a href="url"><img src="https://user-images.githubusercontent.com/48961982/55083771-18fc4780-50b5-11e9-80e6-fc3614b33fc0.png" height="288" width="428" ></a>
-       <br> x-координата выделенной частицы
+        <a href="url"><img src="https://user-images.githubusercontent.com/48961982/55083771-18fc4780-50b5-11e9-80e6-fc3614b33fc0.png" height="268" width="428" ></a>
+       <br>         x-координата выделенной частицы
       </td>
       <td>
-         <a href="url"><img src="https://user-images.githubusercontent.com/48961982/55083772-18fc4780-50b5-11e9-8b35-c30fbe03fba3.png" height="288" width="428" ></a>
-         <br> x-координата выделенной частицы
+         <a href="url"><img src="https://user-images.githubusercontent.com/48961982/55083772-18fc4780-50b5-11e9-8b35-c30fbe03fba3.png" height="268" width="428" ></a>
+         <br>       x-координата выделенной частицы
      </td>
     </tr>
   </tbody>
