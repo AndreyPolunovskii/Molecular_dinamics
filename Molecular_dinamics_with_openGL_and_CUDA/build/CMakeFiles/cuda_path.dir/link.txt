@@ -1,0 +1,1 @@
+/usr/bin/g++ -fPIC  -shared -Wl,-soname,libcuda_path.so -o libcuda_path.so CMakeFiles/cuda_path.dir/solver_file.cu.o CMakeFiles/cuda_path.dir/cmake_device_link.o  -L"/usr/local/cuda-10.0/lib64/stubs" -L"/usr/local/cuda-10.0/lib64" -lcudadevrt -lcudart_static -lrt -lpthread -ldl

@@ -1,0 +1,24 @@
+#!/bin/sh
+
+#export OMP_NUM_THREADS=10 #число потоков 
+
+if [ -d build ]
+
+then
+   rm -r build
+   mkdir build
+   cp plot_command.gnu build/plot_command.gnu
+   cd build
+   cmake ../
+   make 
+   ./run_file #> info.txt
+   
+else
+   mkdir build
+   cp plot_command.gnu build/plot_command.gnu
+   cd build
+   cmake ../
+   make 
+   ./run_file #> info.txt
+fi
+

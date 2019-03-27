@@ -1,0 +1,4 @@
+/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/build/CMakeFiles/edit_cache.dir
+/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/build/CMakeFiles/cuda_path.dir
+/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/build/CMakeFiles/rebuild_cache.dir
+/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/build/CMakeFiles/run_file.dir

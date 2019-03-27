@@ -1,0 +1,56 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/include_files.h
+fstream
+-
+iostream
+-
+string
+-
+vector
+-
+cmath
+-
+cstdlib
+-
+math.h
+-
+ctime
+-
+omp.h
+-
+iterator
+-
+algorithm
+-
+iomanip
+-
+stdlib.h
+-
+cstdio
+-
+GL/gl.h
+-
+GL/glu.h
+-
+GL/glut.h
+-
+
+../include/parameters.h
+
+../include/solver_file.h
+
+/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/main.cpp
+include_files.h
+/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/include_files.h
+parameters.h
+/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/parameters.h
+solver_file.h
+/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/solver_file.h
+

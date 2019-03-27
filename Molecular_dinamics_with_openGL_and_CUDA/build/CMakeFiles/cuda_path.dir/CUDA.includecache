@@ -1,0 +1,68 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/add_functions.h
+
+../include/include_files.h
+fstream
+-
+iostream
+-
+string
+-
+vector
+-
+cmath
+-
+cstdlib
+-
+math.h
+-
+ctime
+-
+omp.h
+-
+iterator
+-
+algorithm
+-
+iomanip
+-
+stdlib.h
+-
+cstdio
+-
+GL/gl.h
+-
+GL/glu.h
+-
+GL/glut.h
+-
+
+../include/parameters.h
+
+../include/solver_file.h
+
+../include/source_funct.cuh
+
+../include/vars.h
+
+/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/solver_file.cu
+include_files.h
+/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/include_files.h
+parameters.h
+/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/parameters.h
+vars.h
+/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/vars.h
+solver_file.h
+/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/solver_file.h
+source_funct.cuh
+/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/source_funct.cuh
+add_functions.h
+/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/add_functions.h
+

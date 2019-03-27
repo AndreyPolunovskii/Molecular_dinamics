@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -fopenmp  -rdynamic CMakeFiles/run_file.dir/main.cpp.o  -o run_file -Wl,-rpath,"/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/build" libcuda_path.so -lGL -lGLU -lglut -lXmu -lXi 

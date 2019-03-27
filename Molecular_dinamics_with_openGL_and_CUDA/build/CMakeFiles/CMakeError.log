@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_da067/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da067.dir/build.make CMakeFiles/cmTC_da067.dir/build
+make[1]: вход в каталог «/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_da067.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_da067.dir/CheckSymbolExists.cxx.o -c "/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx"
+Linking CXX executable cmTC_da067
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da067.dir/link.txt --verbose=1
+/usr/bin/c++       -rdynamic CMakeFiles/cmTC_da067.dir/CheckSymbolExists.cxx.o  -o cmTC_da067 
+CMakeFiles/cmTC_da067.dir/CheckSymbolExists.cxx.o: In function `main':
+CheckSymbolExists.cxx:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_da067.dir/build.make:97: recipe for target 'cmTC_da067' failed
+make[1]: *** [cmTC_da067] Error 1
+make[1]: выход из каталога «/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/build/CMakeFiles/CMakeTmp»
+Makefile:126: recipe for target 'cmTC_da067/fast' failed
+make: *** [cmTC_da067/fast] Error 2
+
+File /home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c14d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c14d.dir/build.make CMakeFiles/cmTC_2c14d.dir/build
+make[1]: вход в каталог «/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/build/CMakeFiles/CMakeTmp»
+Building CXX object CMakeFiles/cmTC_2c14d.dir/CheckFunctionExists.cxx.o
+/usr/bin/c++    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2c14d.dir/CheckFunctionExists.cxx.o -c "/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx"
+Linking CXX executable cmTC_2c14d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c14d.dir/link.txt --verbose=1
+/usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_2c14d.dir/CheckFunctionExists.cxx.o  -o cmTC_2c14d -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2c14d.dir/build.make:97: recipe for target 'cmTC_2c14d' failed
+make[1]: *** [cmTC_2c14d] Error 1
+make[1]: выход из каталога «/home/andrey/myprogram/мои проги на CUDa/solve_ode_with_opengl/build/CMakeFiles/CMakeTmp»
+Makefile:126: recipe for target 'cmTC_2c14d/fast' failed
+make: *** [cmTC_2c14d/fast] Error 2
+
+
