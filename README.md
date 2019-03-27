@@ -18,7 +18,7 @@ To run the program in the folder Molecular_dinamics_with_openGL_and_CUDA execute
                  
      ./RUN
 
-Use mouse and buttons shift and ctrl to control the view.
+Use mouse and the shift and ctrl buttons to control the view.
 
 <table>
   <tbody>
