@@ -6,7 +6,7 @@ The calculation of particle coordinates, velocities and accelerations is perform
 
 For use this program you must install:
 
-CUDA library , openGL, GLUT, gnuplot, cmake (version not lower then 3.1) 
+    CUDA library , openGL, GLUT, gnuplot, cmake (version not lower then 3.1) 
 
 All necessary parameters are set in the file:
  
